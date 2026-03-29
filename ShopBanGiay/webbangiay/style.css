@@ -1,0 +1,105 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 110px;
+}
+.menu a {
+  margin-left: 65px;
+  text-decoration: none;
+  color: black;
+}
+.hero {
+  padding: 20px 65px;
+}
+
+.hero h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.hero p {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.btn {
+  margin-left: 100px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 7px 7px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #333;
+}
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+.product {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+}
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+.product button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.see-more-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.see-more {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 10px;   
+  border-radius: 8px;
+  width: auto;         
+  height: auto;         
+  display: inline-block;
+  cursor: pointer;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 0px 20px;
+  margin-top: 10px;
+}
+.footer h3 {
+  margin-bottom: 15px;
+}
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 11px;
+  opacity: 0.7;
+}
